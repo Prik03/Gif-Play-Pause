@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gif PLay/Pause | Accessibility</title>
+</head>
+
+<body>
+    <div class="box">
+        <div>
+            <img src="imagegif.gif" data-gif="imagegif.gif" id="image" data-still="Static-image.png"
+                alt="Illustration of two paper boats floating on stylized waves with the sun setting in the background."
+                data-state='playing'>
+        </div>
+        <div>
+            <button id="stopGif" aria-pressed="false" aria-label="Play/Pause Gif">Play / Pause</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
