@@ -31,24 +31,25 @@ Animated GIFs can distract or harm users with motion sensitivity. This solution 
 
 3. Click Play to start the GIF, Pause to stop it.
 
-📂 Files
+---
 
-index.html → Main page
+## 📂 Files
 
-style.css → Styles
+- `index.html` → Main page
+- `style.css` → Styles
+- `script.js` → Play/Pause logic
+- `assets/` → GIFs
 
-script.js → Play/Pause logic
+---
 
-assets/ → GIFs
+## ♿ Accessibility
 
-♿ Accessibility
+- Users can control animations.
+- Works with keyboard navigation.
+- Screen reader friendly.
 
-Users can control animations.
+---
 
-Works with keyboard navigation.
-
-Screen reader friendly.
-
-📜 License
+## 📜 License
 
 MIT License – Free to use and share.
